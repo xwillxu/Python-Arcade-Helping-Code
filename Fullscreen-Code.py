@@ -11,3 +11,6 @@ class Example(arcade.Window):
     
     # The Code For Fullscreen Control   
     self.set_fullscreen(not self.fullscreen)
+    
+# If You Want To Change From Fullscreen To Normal You Will Add This Code Below
+  def 

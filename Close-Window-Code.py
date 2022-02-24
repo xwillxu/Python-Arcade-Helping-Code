@@ -9,4 +9,4 @@ class Example(arcade.Window):
         " Key Press"
         # Fullscreen Control
         if arcade.key.SPACE:
-            self.set_fullscreen(not self.fullscreen)
+            arcade.close_window()

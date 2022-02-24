@@ -16,5 +16,6 @@ class Example(arcade.Window):
   def on_key_press(self, key, modifiers):
         " When You Press A Key"
         # Fullscreen Control
+        
         if arcade.key.SPACE:
             self.set_fullscreen(not self.fullscreen)

@@ -9,5 +9,5 @@ class Example(arcade.Window):
     """Where The Fullscreen Control Is"""
     # By The Way You Need The self For The __init__
     
-    # The Code For Fullscreen Control
-    self.
+    # The Code For Fullscreen Control   
+    self.set_fullscreen(not self.fullscreen)

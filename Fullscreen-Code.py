@@ -13,4 +13,8 @@ class Example(arcade.Window):
     self.set_fullscreen(not self.fullscreen)
     
 # If You Want To Change From Fullscreen To Normal You Will Add This Code Below
-  def 
+  def on_key_press(self, symbol: int, modifiers: int):
+        " Key Press"
+        # Fullscreen Control
+        if arcade.key.SPACE:
+            self.set_fullscreen(not self.fullscreen)

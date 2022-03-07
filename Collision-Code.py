@@ -11,3 +11,4 @@ def collision(player, ai_list):
 
             player.change_x = - player.change_x * 2
             player.change_y = - player.change_y * 2
+# Remember Use Pymunk. Much better collision

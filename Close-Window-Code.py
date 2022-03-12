@@ -10,3 +10,4 @@ class Example(arcade.Window):
         # Fullscreen Control
         if arcade.key.SPACE:
             arcade.close_window()
+  # By The Way Only Use This Function If They Aren't Using Any Keys For Different Functions.

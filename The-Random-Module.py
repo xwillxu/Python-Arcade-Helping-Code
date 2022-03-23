@@ -6,4 +6,4 @@ import random
 # Randint
 random.randint(int:A, int:B)
 
-#
+#Rand
